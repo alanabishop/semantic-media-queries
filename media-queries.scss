@@ -65,3 +65,19 @@
         @content;
     }
 }
+
+
+$breakpoints: (
+    small       : (60em * .625),
+    medium      : (90em * .625),
+    large       : (120em * .625),
+    x-large     : (180em * .625),
+);
+
+$verticalBreakpoints: (
+    vertical-small    : (60em * .625),
+    vertical-medium   : (70em * .625),
+    vertical-large    : (80em * .625),
+    vertical-xlarge   : (90em * .625)
+);
+
